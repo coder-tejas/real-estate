@@ -1,8 +1,10 @@
-import React from 'react'
+import Page from "./pages/home/Page"
 
 function App() {
   return (
-    <div>App</div>
+    <>
+    <Page/>
+    </>
   )
 }
 
