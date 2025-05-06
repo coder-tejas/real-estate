@@ -19,7 +19,7 @@ function Page() {
         <h5>Explore our wide range of rental properties tailored to fit your lifestyle and needs!</h5>
          <div className="sec-1-content-search">
           <input  type="text" placeholder="Search by city,neighborhood or address" />
-           <button type="submit">Search</button> 
+           <button type="submit">Search </button> 
           </div> 
       </div>
       </div>

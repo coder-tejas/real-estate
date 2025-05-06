@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "ss" : "nodemon index",
+    "ss": "nodemon index",
     "build": "rimraf dist && npx tsc",
     "start": "npm run build && node dist/index.js",
     "dev": "npm run build && concurrently \"npx tsc -w\" \"nodemon --exec ts-node src/index.ts\"",
@@ -16,10 +16,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.740.0",
-    "@aws-sdk/lib-storage": "^3.740.0",
-    "@prisma/client": "^6.3.0",
-    "@terraformer/wkt": "^2.2.1",
     "axios": "^1.7.9",
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
